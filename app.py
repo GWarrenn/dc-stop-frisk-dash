@@ -15,7 +15,7 @@ import plotly.graph_objs as go
 ##
 ########################################
 
-df = pd.read_csv('C:\\users\\augus\\Desktop\\nbh_sf_df.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/GWarrenn/dc-stop-frisk-dash/master/nbh_sf_df.csv')
 
 ##stop and frisk by month within neighborhood
 
