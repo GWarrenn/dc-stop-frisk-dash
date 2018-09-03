@@ -103,7 +103,7 @@ app.layout = html.Div(children=[
     	html.Div(
             [
                 html.H1(
-                    'DC Stop & Frisk by Neighborhood',
+                    'DC Stop and Frisk by Neighborhood',
                     className='eight columns',
                     style={'backgroundColor':'#F4F4F8',
                     		'font-family': 'Helvetica'}
@@ -176,7 +176,7 @@ def update_graph(selected_dropdown_value):
 					paper_bgcolor = '#F4F4F8',
 					plot_bgcolor = '#F4F4F8',
 					showlegend=False,
-					title='Total Stop & Frisk by Month within Neighborhood'
+					title='Total Stop and Frisk by Month within Neighborhood'
 				),
     			style={'width': '50%', 
     				'height': '70%',
@@ -202,7 +202,7 @@ def update_graph(selected_dropdown_value):
 					paper_bgcolor = '#F4F4F8',
 					plot_bgcolor = '#F4F4F8',
 					showlegend=False,
-					title='Total Stop & Frisk by Race/Ethnicity within Neighborhood'
+					title='Total Stop and Frisk by Race/Ethnicity within Neighborhood'
 				),
 				style={'width': '50%', 
     				'height': '70%',
@@ -229,7 +229,7 @@ def update_graph(selected_dropdown_value):
 					paper_bgcolor = '#F4F4F8',
 					plot_bgcolor = '#F4F4F8',
 					showlegend=False,
-					title='Total Stop & Frisk by Hour within Neighborhood',
+					title='Total Stop and Frisk by Hour within Neighborhood',
 					yaxis=dict(tickformat=".0%")
 				),
 				style={'width': '100%', 
